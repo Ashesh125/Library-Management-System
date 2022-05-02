@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/Configuration/LibraryHelper.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>25</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/src/java/Service/LoginService.java</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/src/java/Configuration/LibraryHelper.java</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/Resources/Pages/Admin_List.jsp</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/index.jsp</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/Resources/Dashboard/Dashboard_Nav.jsp</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/Resources/Pages/Book_Detail.jsp</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/src/java/Modal/PatronModal.java</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/src/java/FormHandler/LoginController.java</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/Resources/Pages/Patron_List.jsp</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/web/Resources/script/builders.js</file>
+            <file>file:/C:/Users/WorldEdit/OneDrive/Documents/NetBeansProjects/LibraryTest/src/java/Service/PatronService.java</file>
+        </group>
+    </open-files>
+</project-private>
