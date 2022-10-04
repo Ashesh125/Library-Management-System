@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>PublisherForm</servlet-name>
+        <servlet-class>FormHandler.PublisherController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PublisherForm</servlet-name>
+        <url-pattern>/Forms/Publisher</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>LoginForm</servlet-name>
+        <servlet-class>FormHandler.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginForm</servlet-name>
+        <url-pattern>/Forms/LoginCheck</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet>
+        <servlet-name>AuthorCheck</servlet-name>
+        <servlet-class>FormHandler.AuthorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthorCheck</servlet-name>
+        <url-pattern>/Forms/Author</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GenreCheck</servlet-name>
+        <servlet-class>FormHandler.GenreController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenreCheck</servlet-name>
+        <url-pattern>/Forms/Genre</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FacultyCheck</servlet-name>
+        <servlet-class>FormHandler.FacultyController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FacultyCheck</servlet-name>
+        <url-pattern>/Forms/Faculty</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BookCheck</servlet-name>
+        <servlet-class>FormHandler.BookController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookCheck</servlet-name>
+        <url-pattern>/Forms/Book</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BookDetailCheck</servlet-name>
+        <servlet-class>FormHandler.BookDetailController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookDetailCheck</servlet-name>
+        <url-pattern>/Forms/BookDetail</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AdminCheck</servlet-name>
+        <servlet-class>FormHandler.AdminController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminCheck</servlet-name>
+        <url-pattern>/Forms/Admin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BookSubmit</servlet-name>
+        <servlet-class>FormHandler.BookIssue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookSubmit</servlet-name>
+        <url-pattern>/Forms/BookProcess</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PatronCheck</servlet-name>
+        <servlet-class>FormHandler.PatronController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PatronCheck</servlet-name>
+        <url-pattern>/Forms/Patron</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SessionDestroyer</servlet-name>
+        <servlet-class>Sessions.SessionDestroyer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionDestroyer</servlet-name>
+        <url-pattern>/Forms/Logout</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PatronSearch</servlet-name>
+        <servlet-class>FormHandler.PatronSearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PatronSearch</servlet-name>
+        <url-pattern>/Forms/PatronSearch</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BorrowerSearch</servlet-name>
+        <servlet-class>FormHandler.BorrowerController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowerSearch</servlet-name>
+        <url-pattern>/Forms/BorrowerSearch</url-pattern>
+    </servlet-mapping>
+    
+    
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/Resources/Errors/error.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <exception-type>Exceptions</exception-type>
+        <location>/Resources/Errors/error-c.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/Resources/Errors/error-404.jsp</location>
+    </error-page>
+    <servlet>
+        <servlet-name>DashboardData</servlet-name>
+        <servlet-class>FormHandler.DashboardController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DashboardData</servlet-name>
+        <url-pattern>/Forms/DashboardMain</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BorrowedBooks</servlet-name>
+        <servlet-class>FormHandler.BorrowedBooksController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowedBooks</servlet-name>
+        <url-pattern>/Forms/Borrowed</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ChangePassword</servlet-name>
+        <servlet-class>FormHandler.PasswordController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePassword</servlet-name>
+        <url-pattern>/Forms/changePswd</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>AddingPublisher</servlet-name>
+        <servlet-class>FormHandler.addPublisher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddingPublisher</servlet-name>
+        <url-pattern>/Forms/addPublisher</url-pattern>
+    </servlet-mapping>
+</web-app>

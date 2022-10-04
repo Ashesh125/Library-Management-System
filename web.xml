@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>BookForm</servlet-name>
+        <servlet-class>FormHandler.BookFormController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookForm</servlet-name>
+        <url-pattern>/BookCheck</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
